@@ -13,7 +13,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Minefield.Core\Minefield.Core.csproj" />
-    <ProjectReference Include="..\Minefield.Entities\Minefield.Domain.csproj" />
+    <ProjectReference Include="..\Minefield.Domain\Minefield.Domain.csproj" />
   </ItemGroup>
 
 </Project>

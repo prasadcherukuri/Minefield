@@ -5,13 +5,13 @@ VisualStudioVersion = 17.4.33403.182
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Minefield.UI", "Minefield.UI\Minefield.UI.csproj", "{3DC50131-4501-4E67-817C-5146F9CBF410}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Minefield.Domain", "Minefield.Entities\Minefield.Domain.csproj", "{4D390D36-769C-4F8E-A4DF-345002A1C8E0}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Minefield.Core", "Minefield.Core\Minefield.Core.csproj", "{87C2CF3C-3DB3-486E-8724-41F22DE1D835}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minefield.Domain.Tests", "Minefield.Tests\Minefield.Domain.Tests.csproj", "{D5292647-FEC8-4BEF-BD8E-88B541FB3185}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Minefield.Core.Tests", "Minefield.Core.Tests\Minefield.Core.Tests.csproj", "{631B8CDE-2D5A-48B2-A5FA-DB456CB83194}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minefield.Core.Tests", "Minefield.Core.Tests\Minefield.Core.Tests.csproj", "{631B8CDE-2D5A-48B2-A5FA-DB456CB83194}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Minefield.Domain", "Minefield.Domain\Minefield.Domain.csproj", "{71499DF7-6195-4F2F-A713-D4565A256504}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Minefield.Domain.Tests", "Minefield.Domain.Tests\Minefield.Domain.Tests.csproj", "{13A97756-3E4F-494D-836F-6546D4C78171}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,22 +23,22 @@ Global
 		{3DC50131-4501-4E67-817C-5146F9CBF410}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3DC50131-4501-4E67-817C-5146F9CBF410}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3DC50131-4501-4E67-817C-5146F9CBF410}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4D390D36-769C-4F8E-A4DF-345002A1C8E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4D390D36-769C-4F8E-A4DF-345002A1C8E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4D390D36-769C-4F8E-A4DF-345002A1C8E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4D390D36-769C-4F8E-A4DF-345002A1C8E0}.Release|Any CPU.Build.0 = Release|Any CPU
 		{87C2CF3C-3DB3-486E-8724-41F22DE1D835}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{87C2CF3C-3DB3-486E-8724-41F22DE1D835}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{87C2CF3C-3DB3-486E-8724-41F22DE1D835}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{87C2CF3C-3DB3-486E-8724-41F22DE1D835}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D5292647-FEC8-4BEF-BD8E-88B541FB3185}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D5292647-FEC8-4BEF-BD8E-88B541FB3185}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D5292647-FEC8-4BEF-BD8E-88B541FB3185}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D5292647-FEC8-4BEF-BD8E-88B541FB3185}.Release|Any CPU.Build.0 = Release|Any CPU
 		{631B8CDE-2D5A-48B2-A5FA-DB456CB83194}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{631B8CDE-2D5A-48B2-A5FA-DB456CB83194}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{631B8CDE-2D5A-48B2-A5FA-DB456CB83194}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{631B8CDE-2D5A-48B2-A5FA-DB456CB83194}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71499DF7-6195-4F2F-A713-D4565A256504}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71499DF7-6195-4F2F-A713-D4565A256504}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71499DF7-6195-4F2F-A713-D4565A256504}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71499DF7-6195-4F2F-A713-D4565A256504}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13A97756-3E4F-494D-836F-6546D4C78171}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13A97756-3E4F-494D-836F-6546D4C78171}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13A97756-3E4F-494D-836F-6546D4C78171}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13A97756-3E4F-494D-836F-6546D4C78171}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
