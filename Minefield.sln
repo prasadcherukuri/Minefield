@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33403.182
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Minefield.UI", "Minefield.UI\Minefield.UI.csproj", "{3DC50131-4501-4E67-817C-5146F9CBF410}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Minefield.Domain", "Minefield.Entities\Minefield.Domain.csproj", "{4D390D36-769C-4F8E-A4DF-345002A1C8E0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Minefield.Core", "Minefield.Core\Minefield.Core.csproj", "{87C2CF3C-3DB3-486E-8724-41F22DE1D835}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minefield.Domain.Tests", "Minefield.Tests\Minefield.Domain.Tests.csproj", "{D5292647-FEC8-4BEF-BD8E-88B541FB3185}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minefield.Core.Tests", "Minefield.Core.Tests\Minefield.Core.Tests.csproj", "{631B8CDE-2D5A-48B2-A5FA-DB456CB83194}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3DC50131-4501-4E67-817C-5146F9CBF410}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DC50131-4501-4E67-817C-5146F9CBF410}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DC50131-4501-4E67-817C-5146F9CBF410}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DC50131-4501-4E67-817C-5146F9CBF410}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D390D36-769C-4F8E-A4DF-345002A1C8E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D390D36-769C-4F8E-A4DF-345002A1C8E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D390D36-769C-4F8E-A4DF-345002A1C8E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D390D36-769C-4F8E-A4DF-345002A1C8E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87C2CF3C-3DB3-486E-8724-41F22DE1D835}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87C2CF3C-3DB3-486E-8724-41F22DE1D835}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87C2CF3C-3DB3-486E-8724-41F22DE1D835}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87C2CF3C-3DB3-486E-8724-41F22DE1D835}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5292647-FEC8-4BEF-BD8E-88B541FB3185}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5292647-FEC8-4BEF-BD8E-88B541FB3185}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5292647-FEC8-4BEF-BD8E-88B541FB3185}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5292647-FEC8-4BEF-BD8E-88B541FB3185}.Release|Any CPU.Build.0 = Release|Any CPU
+		{631B8CDE-2D5A-48B2-A5FA-DB456CB83194}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{631B8CDE-2D5A-48B2-A5FA-DB456CB83194}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{631B8CDE-2D5A-48B2-A5FA-DB456CB83194}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{631B8CDE-2D5A-48B2-A5FA-DB456CB83194}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DA5B8CBA-DBF7-4126-8AFA-A1FBB7BD62EE}
+	EndGlobalSection
+EndGlobal
